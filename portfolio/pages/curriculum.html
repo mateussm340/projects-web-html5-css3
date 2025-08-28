@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo-portfolio.png" type="image/x-icon">
+    <title>Currículo | Portfolio</title>
+    <link rel="shortcut icon" href="https://i.ibb.co/VGGfjkr/logo-portfolio.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        ul .container__text {
+            font-size: 1.4rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="model__horizontal model__start model__break">
+            <a href="../index.html" class="container__link">Home</a>
+            <a href="about.html" class="container__link">Sobre mim</a>
+            <a href="curriculum.html" class="container__link">Currículo</a>
+            <a href="projects.html" class="container__link">Projetos</a>
+        </nav>
+    </header>
+
+    <main class="container model__horizontal model__start">
+        <section class="container__section model__vertical">
+            <h1 class="container__title">Currículo</h1>
+            <p class="container__text">Meu primeiro contato com programação foi em 2017, durante o início do meu curso técnico em Informática, onde tive a oportunidade de aprender e praticar linguagens como <span class="container__emphasis">PHP, MySQL e JavaScript</span>.</p>
+
+            <div class="model__vertical model__start">
+                <h2 class="container__subtitle">Experiências</h2>
+
+                <ul class="model__vertical model__start" id="element-list-job"></ul>
+            </div>
+
+            <div class="model__vertical model__start">
+                <h2 class="container__subtitle">Estudos</h2>
+
+                <ul class="model__vertical model__start" id="element-list-course"></ul>
+            </div>
+        </section>
+
+        <img src="https://avatars.githubusercontent.com/u/227275787?v=4" alt="Imagem do programador Mateus Maciel" class="container__image"/>
+    </main>
+
+    <footer class="footer container__box model__vertical model__center">
+        <p class="container__text">Desenvolvido por Mateus Maciel.</p>
+    </footer>
+
+    <script src="../js/view/viewListJobAndCourse.js" type="module"></script>
+</body>
+</html>

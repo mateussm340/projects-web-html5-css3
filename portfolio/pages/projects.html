@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo-portfolio.png" type="image/x-icon">
+    <title>Projetos | Portfolio</title>
+    <link rel="shortcut icon" href="https://i.ibb.co/VGGfjkr/logo-portfolio.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .container__section .container__image {
+            opacity: 1;
+            width: 100%;
+        }
+
+        #element-projects {
+            border-top: 0.4rem solid #2e2e2e;
+            padding: 2rem 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="model__horizontal model__start model__break">
+            <a href="../index.html" class="container__link">Home</a>
+            <a href="about.html" class="container__link">Sobre mim</a>
+            <a href="curriculum.html" class="container__link">Currículo</a>
+            <a href="projects.html" class="container__link">Projetos</a>
+        </nav>
+    </header>
+
+    <main class="container model__horizontal model__start">
+        <section class="container__section model__vertical">
+            <h1 class="container__title">Projetos</h1>
+            
+            <p class="container__text">Esse projeto faz parte do meu segundo repositório. Isso significa que ainda não tenho muitos projetos relevantes para apresentar, mas, de qualquer forma, tenho um projeto com desafios de lógica, pensado por mim desde o início. Aprendi na <span class="container__emphasis">Alura</span>, mas adicionei muitas ideias que vieram da minha própria cabeça.</p>
+
+            <img src="https://i.ibb.co/GvxKGLw1/challenges-logic-programming-imgbb.png" alt="Imagem - Desafios de Lógica em Programação" class="container__image"/>
+
+            <div class="model__vertical model__start">
+                <h2 class="container__subtitle">Desafios de Lógica em Programação</h2>
+                <p class="container__text">
+                    Repositório: 
+                    <a href="https://github.com/mateussm340/challenges-logic-programming" target="_blank" class="container__emphasis">
+                        challenges-logic-programming
+                    </a>
+                </p>
+
+                <p class="container__text">
+                    Deploy: 
+                    <a href="https://challenges-logic-programming.netlify.app/" target="_blank" class="container__emphasis">
+                        Challenges [...] - Netlify
+                    </a>
+                </p>
+
+                <ul class="model__vertical model__start" id="element-projects"></ul>
+            </div>
+        </section>
+
+        <img src="https://avatars.githubusercontent.com/u/227275787?v=4" alt="Imagem do programador Mateus Maciel" class="container__image"/>
+    </main>
+
+    <footer class="footer container__box model__vertical model__center">
+        <p class="container__text">Desenvolvido por Mateus Maciel.</p>
+    </footer>
+
+    <script src="../js/view/viewProjects.js" type="module"></script>
+</body>
+</html>
