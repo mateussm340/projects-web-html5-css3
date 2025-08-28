@@ -1,0 +1,22 @@
+.header .container__link {
+    border: 0.3rem solid var(--hover-color);
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.3rem;
+}
+
+.header .container__link:hover {
+    color: var(--tertiary-color);
+}
+
+@media screen and (max-width: 515px) {
+    .header nav {
+        justify-content: center;
+    }
+
+    .header nav a {
+        border-bottom: 0.3rem solid var(--hover-color);
+    }
+}
