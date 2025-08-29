@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('../../model.css');
+
+@import url('header/header.css');
+@import url('main/main.css');
+@import url('footer/footer.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #040814;
+    --white-color: #F9F9F9;
+    --light-blue-color: #167BF7;
+    --light-gray-color: #C0C0C0;
+
+    --inter-font: 'Inter';
+}
+
+body {
+    background: var(--background-color);
+    color: var(--white-color);
+    font-family: var(--inter-font), sans-serif;
+}
+
+a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.model__blue-color {
+    background: var(--light-blue-color);
+}
+
+.model__transparent-color {
+    background: transparent;
+    border: 0.2rem solid var(--white-color);
+}

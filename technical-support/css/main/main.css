@@ -1,0 +1,55 @@
+@import url('devices.css');
+
+.container {
+    padding: 3rem;
+}
+
+.container__section {
+    gap: 5rem;
+    height: 100vh;
+}
+
+.container__section .container__image {
+    border: 0.4rem solid var(--light-blue-color);
+    border-radius: 0.5rem;
+}
+
+.container__section .container__text {
+    color: var(--light-gray-color);
+}
+
+.container__title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.container__subtitle {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container__button {
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+}
+
+.container__button:hover {
+    background: var(--light-gray-color);
+    color: var(--background-color);
+}
+
+@media screen and (max-width: 1046px) {
+    .container__section {
+        border-bottom: 0.4rem solid var(--light-gray-color);
+        flex-direction: column;
+        height: auto;
+        padding: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .container__section .container__image {
+        width: 100%;
+    }
+}

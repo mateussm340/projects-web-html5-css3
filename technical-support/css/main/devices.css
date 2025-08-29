@@ -1,0 +1,27 @@
+.devices .menu__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.devices .menu__item {
+    border: 0.3rem solid var(--light-gray-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.devices .menu__item .container__image {
+    border: none;
+    width: auto;
+}
+
+@media screen and (max-width: 878px) {
+    .devices .menu__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 646px) {
+    .devices .menu__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

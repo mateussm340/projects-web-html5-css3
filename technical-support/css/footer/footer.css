@@ -1,0 +1,9 @@
+.footer {
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.footer .container__gray-text {
+    color: var(--light-gray-color);
+    font-size: 0.875rem;
+}

@@ -1,0 +1,48 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header__box {
+    background: url('https://i.ibb.co/TqkTB5DT/background-header.png');
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.header__left {
+    padding: 1.4rem;
+    width: 85%;
+}
+
+.header .container__text {
+    color: var(--light-gray-color);
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.header .container__button {
+    width: 100%;
+}
+
+@media screen and (max-width: 1311px) {
+    .header {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__box {
+        background: none;
+    }
+
+    .header__left,
+    .header .container__button {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 442px) {
+    .header .container__image {
+        width: 100%;
+    }
+}
