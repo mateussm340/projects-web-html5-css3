@@ -1,0 +1,41 @@
+.header__menu-hamburguer {
+    display: block;
+    background-image: url('https://i.ibb.co/SXR7rMGC/bars-solid-full.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 48px;
+    width: 48px;
+}
+
+.header__menu-button:checked ~ .container__label > .header__menu-hamburguer {
+    background: url('https://i.ibb.co/MxSmPhcm/bars-staggered-solid-full.png');
+}
+
+.header__menu-button:checked ~ .menu__options {
+    display: flex;
+}
+
+.header__menu-button {
+    display: none;
+}
+
+@media screen and (min-width: 428px) {
+    .header__menu-hamburguer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .menu__left .menu__options {
+        background: var(--blue-color);
+        left: 0;
+        top: 11%;
+        width: 100%;
+    }
+
+    .menu__left .menu__options .menu__item {
+        background: var(--blue-color);
+        padding: 1rem;
+        border-bottom: 0.2rem solid var(--white-color);
+    }
+}

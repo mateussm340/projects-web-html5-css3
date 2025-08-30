@@ -1,0 +1,62 @@
+@import url('banner.css');
+@import url('topic.css');
+@import url('newsletter.css');
+@import url('books.css');
+@import url('swiper.css');
+
+.container__section {
+    padding: 3rem;
+}
+
+.container__title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.container__subtitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.container__text {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.container__box {
+    background: var(--blue-color);
+    border: 0.1rem solid var(--white-color);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.container__text-box {
+    background: transparent;
+    border: 0.2rem solid var(--white-color);
+    border-radius: 1.5rem;
+    color: var(--white-color);
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    outline: none;
+}
+
+.container__text-box::placeholder {
+    background-repeat: no-repeat !important;
+    background-position: 2% !important;
+    color: var(--white-color);
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.container__button {
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+}
+
+.container__button:hover {
+    background: var(--blue-color);
+}

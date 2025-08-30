@@ -1,0 +1,44 @@
+.menu__options {
+    display: none;
+    position: absolute;
+    top: 8%;
+    left: 25.5%;
+    width: 60vw;
+}
+
+.options__button {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .options__button:checked ~ .menu__options {
+        display: flex;
+        width: auto;
+    }
+
+    .options__button {
+        display: none;
+    }
+
+    .options__button:checked ~ .options__label > .menu__item {
+        background: var(--blue-color);
+        color: var(--white-color);
+        font-weight: bold;
+        padding: 0.5rem;
+    }
+
+    .menu__options {
+        background: var(--blue-color);
+        font-weight: bold;
+        padding: 0.5rem 0.3rem;
+    }
+
+    .menu__options .menu__item {
+        background: var(--blue-color);
+        padding: 0.3rem;
+    }
+
+    .menu__options .menu__item:hover > .container__link {
+        -webkit-text-fill-color: var(--background-color);
+    }
+}

@@ -1,0 +1,60 @@
+.books {
+    gap: 3rem;
+    padding: 0 !important;
+}
+
+.books .container__subtitle:nth-child(1) {
+    background: var(--white-color);
+    color: var(--orange-color);
+    font-size: 2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.books .books__central {
+    gap: 3rem;
+    padding: 2rem;
+    width: 100%;
+}
+
+.books .books__card {
+    background: var(--white-color);
+    border-radius: 0.5rem;  
+    gap: 4rem;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.books .books__card .container__title {
+    color: var(--orange-color);
+    font-size: 2rem;
+}
+
+.books .books__card .container__subtitle {
+    color: var(--dark-blue-color);
+    font-size: 1.1rem;
+}
+
+.books .books__card .container__text {
+    color: var(--background-color);
+    font-size: 1rem;
+}
+
+.books .books__card .books__header-left, .books__header-right {
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1024px) {
+    .books .books__card {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .books .books__card {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

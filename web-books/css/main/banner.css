@@ -1,0 +1,35 @@
+.banner {
+    background: var(--dark-blue-color);
+    gap: 2rem;
+}
+
+.banner .container__text {
+    font-size: 1rem;
+}
+
+.banner .container__text-box {
+    font-size: 1rem;
+    width: 40%;
+}
+
+.banner .container__text-box::placeholder {
+    background: url('https://i.ibb.co/p8zS4HV/magnifying-glass-solid-full.png');
+}
+
+@media screen and (max-width: 944px) {
+    .banner .container__text-box {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 593px) {
+    .banner .container__text-box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .banner .container__text-box::placeholder {
+        background: none;
+    }
+}

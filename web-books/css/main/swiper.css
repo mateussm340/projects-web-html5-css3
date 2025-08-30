@@ -1,0 +1,23 @@
+.swiper {
+    width: 800px;
+    height: 300px;
+}
+
+.swiper .swiper-pagination-bullets {
+    background: var(--orange-color);
+    border: 0.2rem solid var(--gray-color);
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+.swiper .swiper-pagination-bullet {
+    background: var(--background-color);
+}
+
+.swiper .swiper-button-next, 
+.swiper .swiper-button-prev {
+    background: var(--orange-color);
+    border-radius: 0.5rem;
+    color: var(--white-color);
+    padding: 2rem;
+}

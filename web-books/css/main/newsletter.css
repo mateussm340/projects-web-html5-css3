@@ -1,0 +1,26 @@
+.newsletter {
+    gap: 2rem;
+}
+
+.newsletter .container__subtitle {
+    font-size: 1.5rem;
+}
+
+.newsletter .container__text {
+    font-size: 1rem;
+}
+
+.newsletter .container__text-box::placeholder {
+    background: url('https://i.ibb.co/WpdPzTxq/envelope-solid-full.png');
+}
+
+@media screen and (max-width: 424px) {
+    .newsletter .container__text-box {
+        width: 100%;
+    }
+
+    .newsletter .container__text-box::placeholder {
+        background: none;
+        text-align: start;
+    }
+}

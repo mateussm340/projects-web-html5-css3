@@ -1,0 +1,63 @@
+@import url('menu-hamburguer.css');
+@import url('header-menu.css');
+
+.header {
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 0.3rem;
+}
+
+.header .container__link:hover {
+    color: var(--orange-color);
+}
+
+.header .header__left {
+    gap: 2rem;
+}
+
+.header__left .menu__center {
+    text-transform: uppercase;
+}
+
+.header .container__title {
+    display: none;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.header .container__emphasis {
+    font-weight: 400;
+}
+
+.header .menu__center .menu__item {
+    display: none;
+}
+
+.header .menu__right .container__text {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .header .menu__right .container__text {
+        display: block;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 428px) {
+    .header {
+        padding: 1rem;
+    }
+
+    .header .container__title {
+        display: block;
+    }
+
+    .header .menu__center .menu__item {
+        display: flex;
+    }
+
+    .header .menu__right .menu__item:nth-child(3) {
+        display: none;
+    }
+}
