@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Livros | Projetos Web HTML5 e CSS3</title>
+    <link rel="shortcut icon" href="https://i.ibb.co/v6b9bscs/logo-web-books.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="header model__horizontal model__center model__break">
+        <div class="header__left model__horizontal model__center model__break">
+            <div class="menu__left model__horizontal model__center model__break">
+                <input type="checkbox" id="menu-hamburguer" class="header__menu-button"/>
+                <label for="menu-hamburguer" class="container__label">
+                    <span class="header__menu-hamburguer container__image"></span>
+                </label>
+
+                <ul class="menu__options model__vertical" id="element-menu-option-1"></ul>                
+
+                <img src="https://i.ibb.co/5hhWzKSY/logo-web-books.png" alt="Logo - WebBooks" class="container__image"/>
+                <h1 class="container__title">
+                    Web<span class="container__emphasis">Books</span>
+                </h1>
+            </div>
+
+            <div class="menu__center">
+                <ul class="model__horizontal model__center model__break">
+                    <input type="checkbox" id="options-menu" class="options__button"/>
+                    <label for="options-menu" class="options__label">
+                        <li class="menu__item">Categorias</li>
+                    </label>
+
+                    <ul class="menu__options model__vertical" id="element-menu-option-2"></ul>
+
+                    <li class="menu__item">
+                        <a href="#" class="container__link">Favoritos</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="container__link">Minha estante</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu__right">
+            <ul class="menu__list model__horizontal model__center model__break">
+                <li class="menu__item">
+                    <a href="#" class="model__horizontal model__center container__link">
+                        <img src="https://i.ibb.co/4RjQT1C3/bag-shopping-solid-full.png" alt="Icone - Minha sacola" class="container__image"/>
+                        <span class="container__text">Minha sacola</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="model__horizontal model__center container__link">
+                        <img src="https://i.ibb.co/BKSy7gKL/user-solid-full.png" alt="Icone - Meu perfil" class="container__image"/>
+                        <span class="container__text">Meu perfil</span>
+                    </a>
+                </li>
+
+                <li class="menu__item">
+                    <a href="#" class="model__horizontal model__center">
+                        <img src="https://i.ibb.co/mr47fsxX/heart-solid-full.png" alt="Icone - Favoritos" class="container__image"/>
+                        <span class="container__text">Favoritos</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container">
+       <section class="container__section banner model__vertical model__center">
+            <h2 class="container__subtitle">Já sabe por onde começar?</h2>
+            <p class="container__text">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+
+            <input type="text" id="name-book" name="name-book" placeholder="Qual será sua próxima leitura?" class="container__text-box"/>
+        </section>
+
+        <section class="container__section books model__vertical model__center">
+            <h2 class="container__subtitle">Últimos lançamentos</h2>
+
+            <div class="books__central model__horizontal model__center model__break">
+                <div class="books__left swiper">
+                    <div class="swiper-wrapper" id="element-list-books-1"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+
+                <div class="books__right books__card model__horizontal">
+                    <div class="books__header-left model__vertical model__start">
+                        <div class="model__vertical model__start">
+                            <h2 class="container__title">Talvez você também se interesse por...</h2>
+                            <h3 class="container__subtitle">Angular 11 e Firebase</h3>
+                            <p class="container__text">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                        </div>
+
+                        <div class="model__horizontal model__start">
+                            <img src="https://i.ibb.co/mr47fsxX/heart-solid-full.png" alt="Icone de favoritos"/>
+                            <img src="https://i.ibb.co/4RjQT1C3/bag-shopping-solid-full.png" alt="Icone da sala de compras"/>
+                        </div>
+                    </div>
+                    <div class="books__header-right model__vertical">
+                        <img src="https://i.ibb.co/m5sjnRM4/logo-angular.png" alt="Logo - (Angular)"/>
+                        <button class="container__button model__orange-color">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container__section books model__vertical model__center">
+            <h2 class="container__subtitle">Mais vendidos</h2>
+
+            <div class="books__central model__horizontal model__center model__break">
+                <div class="books__left swiper">
+                    <div class="swiper-wrapper" id="element-list-books-2"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+
+                <div class="books__right books__card model__horizontal">
+                    <div class="books__header-left model__vertical model__start">
+                        <div class="model__vertical model__start">
+                            <img src="https://i.ibb.co/ZzY59m6X/logo-stars.png" alt="Logo com 5 estrelas"/>
+                            <h2 class="container__title">Autora do Mês</h2>
+                            <h3 class="container__subtitle">Juliana Agarikov</h3>
+                            <p class="container__text">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                        </div>
+
+                        <div class="model__horizontal model__start">
+                            <img src="https://i.ibb.co/mr47fsxX/heart-solid-full.png" alt="Icone de favoritos"/>
+                            <img src="https://i.ibb.co/4RjQT1C3/bag-shopping-solid-full.png" alt="Icone da sala de compras"/>
+                        </div>
+                    </div>
+                    <div class="books__header-right model__vertical">
+                        <img src="https://i.ibb.co/PsHD3gwL/logo-juliana-agarikov.png" alt="Foto - (Escritora Juliana Agarikov)"/>
+                        <button class="container__button model__orange-color">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="container__section banner topic model__vertical model__center">
+            <h2 class="container__subtitle">Tópicos visitados recentemente</h2>
+
+            <ul class="menu__list model__horizontal model__center model__break" id="element-topic"></ul>
+        </section>
+
+        <section class="container__section newsletter model__horizontal model__center model__break">
+            <div class="model__vertical model__start">
+                <h2 class="container__subtitle">Fique por dentro das novidades!</h2>
+                <p class="container__text">Atualizações de e-books, novos livros, promoções e outros.</p>
+            </div>
+
+            <input type="email" name="domain-email" id="domain-email" placeholder="Cadastre seu e-mail" class="container__text-box"/>
+        </section>
+    </main>
+
+    <footer class="footer model__horizontal model__center model__break">
+        <h2 class="container__subtitle">Grupo WebLivros</h2>
+
+        <div class="footer__group model__horizontal model__center model__break" id="element-list-companies"></div>
+    </footer>
+
+    <script src="js/viewList.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js" type="module"></script>
+</body>
+</html>
