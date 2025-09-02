@@ -11,7 +11,7 @@
 }
 
 .newsletter .container__text-box::placeholder {
-    background: url('https://i.ibb.co/WpdPzTxq/envelope-solid-full.png');
+    background: url('../../images/icons/envelope-solid-full.png');
 }
 
 @media screen and (max-width: 424px) {

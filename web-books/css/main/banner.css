@@ -13,7 +13,7 @@
 }
 
 .banner .container__text-box::placeholder {
-    background: url('https://i.ibb.co/p8zS4HV/magnifying-glass-solid-full.png');
+    background: url('../../images/icons/magnifying-glass-solid-full.png');
 }
 
 @media screen and (max-width: 944px) {

@@ -91,11 +91,11 @@ function showListBooks() {
         elementListBooks = document.querySelector(`#element-list-books-${i}`);
 
         listBooks.forEach((book) => {
-            searchNameImage = book.split('/')[1];
+            searchNameImage = book.split('.')[0];
 
             elementListBooks.innerHTML += `
                 <div class="swiper-slide">
-                    <img src="https://i.ibb.co/${book}" alt="Livro - ${searchNameImage}"/>
+                    <img src="images/books/livro-${book}" alt="Livro - ${searchNameImage}"/>
                 </div>
             `;
         });

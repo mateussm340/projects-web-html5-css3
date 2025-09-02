@@ -1,6 +1,6 @@
 .header__menu-hamburguer {
     display: block;
-    background-image: url('https://i.ibb.co/SXR7rMGC/bars-solid-full.png');
+    background-image: url('../../images/icons/bars-solid-full.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 48px;
@@ -8,7 +8,7 @@
 }
 
 .header__menu-button:checked ~ .container__label > .header__menu-hamburguer {
-    background: url('https://i.ibb.co/MxSmPhcm/bars-staggered-solid-full.png');
+    background: url('../../images/icons/bars-staggered-solid-full.png');
 }
 
 .header__menu-button:checked ~ .menu__options {
