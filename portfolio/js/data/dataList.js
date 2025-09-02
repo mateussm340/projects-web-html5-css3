@@ -1,19 +1,19 @@
 export const listSocialNetwork = [
     {
         id: 1,
-        logoLink: 'gbYjrQhT/icon-github.png',
+        logoLink: 'icon-github.png',
         title: 'Github',
         linkAcess: 'https://github.com/mateussm340'
     },
     {
         id: 2,
-        logoLink: 'DPDxSXj5/icon-linkedin.png',
+        logoLink: 'icon-linkedin.png',
         title: 'Linkedin',
         linkAcess: 'https://www.linkedin.com/in/mateussm340'
     },
     {
         id: 3,
-        logoLink: 'XkbbgjGC/icon-envelope.png',
+        logoLink: 'icon-envelope.png',
         title: 'Email',
         linkAcess: 'mailto:mateussm340@gmail.com'   
     }

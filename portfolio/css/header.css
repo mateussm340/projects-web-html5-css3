@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 515px) {
     .header nav {
+        align-items: center;
         justify-content: center;
     }
 
