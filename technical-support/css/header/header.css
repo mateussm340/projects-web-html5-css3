@@ -4,7 +4,7 @@
 }
 
 .header__box {
-    background: url('https://i.ibb.co/TqkTB5DT/background-header.png');
+    background: url('../../images/background-header.png');
     background-repeat: no-repeat;
     height: 600px;
 }
@@ -24,7 +24,7 @@
     width: 100%;
 }
 
-@media screen and (max-width: 1311px) {
+@media screen and (max-width: 1200px) {
     .header {
         align-items: center;
         display: flex;

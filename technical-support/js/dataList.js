@@ -2,17 +2,17 @@ export const devicesList = [
     {
         id: 1, 
         title: 'TV',
-        imgLink: 'Q7DK2Whp/icon-tv.png'
+        imgLink: 'icon-tv.png'
     },
     {
         id: 2, 
         title: 'Computadores',
-        imgLink: 'V0fsJcKQ/icon-desktop.png'
+        imgLink: 'icon-desktop.png'
     },
     {
         id: 3, 
         title: 'Celulares e Tablets',
-        imgLink: 'vxw9tCj8/icon-smartphone.png'
+        imgLink: 'icon-smartphone.png'
     }
 ];
 

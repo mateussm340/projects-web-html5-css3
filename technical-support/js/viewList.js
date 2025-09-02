@@ -6,7 +6,7 @@ function showDevicesListOnScreen() {
     devicesList.forEach((device) => {
         elementDevice.innerHTML += `
             <li class="menu__item model__vertical model__center">
-                <img src="https://i.ibb.co/${device.imgLink}" alt="Icone - ${device.title}" class="container__image"/>
+                <img src="images/icons/${device.imgLink}" alt="Icone - ${device.title}" class="container__image"/>
                 <h2 class="container__subtitle">${device.title}</h2>
             </li>
         `;
