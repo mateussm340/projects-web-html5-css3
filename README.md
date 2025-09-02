@@ -18,19 +18,19 @@ Project list:
 
 |428px|1024px|1728px|
 |------------|--------------|--------------------|
-|![Portfolio - 428px](https://i.ibb.co/MDZM2Twm/428.gif)|![Portfolio - 1024px](https://i.ibb.co/S4LdGrtb/1024.gif)|![Portfolio - 1728px](https://i.ibb.co/5WM4z0js/1728.gif)|
+|![Portfolio - 428px](assets/mobile-first-image/portfolio-428.png)|![Portfolio - 1024px](assets/mobile-first-image/portfolio-1024.png)|![Portfolio - 1728px](assets/mobile-first-image/portfolio-1728.png)|
 
 ### Technical Support
 
 |428px|1024px|1728px|
 |------------|--------------|--------------------|
-|![Technical Support - 428px](https://i.ibb.co/Pv4Z59Y6/428.gif)|![Technical Support - 1024px](https://i.ibb.co/k2m3Fx54/1024.gif)|![Technical Support - 1728px](https://i.ibb.co/1GR9P069/1728.gif)|
+|![Technical Support - 428px](assets/mobile-first-image/technical-support-428.png)|![Technical Support - 1024px](assets/mobile-first-image/technical-support-1024.png)|![Technical Support - 1728px](assets/mobile-first-image/technical-support-1728.png)|
 
 ### Web Books
 
 |428px|1024px|1728px|
 |------------|--------------|--------------------|
-|![WebBooks - 428px](https://i.ibb.co/Xr8m0fq5/428.gif)|![WebBooks - 1024px](https://i.ibb.co/pvrf9jjj/1024.gif)|![WebBooks - 1728px](https://i.ibb.co/Fb6v1gSx/1728.gif)|
+|![WebBooks - 428px](assets/mobile-first-image/web-books-428.png)|![WebBooks - 1024px](assets/mobile-first-image/web-books-1024.png)|![WebBooks - 1728px](assets/mobile-first-image/web-books-1728.png)|
 
 ## Meta
 
